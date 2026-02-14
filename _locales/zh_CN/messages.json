@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Edge Recent Tab",
+    "description": "扩展名称"
+  },
+  "extensionDescription": {
+    "message": "快速访问和切换您最近使用的 Edge 浏览器标签页",
+    "description": "扩展描述"
+  },
+  "popupTitle": {
+    "message": "最近标签页",
+    "description": "弹出窗口显示的标题"
+  },
+  "commandPreviousTab": {
+    "message": "切换到历史记录中的上一个标签页",
+    "description": "上一个标签页命令的描述"
+  },
+  "commandOpenPopup": {
+    "message": "打开最近标签页弹出窗口 (Alt+Q)",
+    "description": "打开弹出窗口命令的描述"
+  }
+}

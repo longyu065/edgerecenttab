@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recent Tabs - Edge Recent Tab Extension</title>
+  <link rel="stylesheet" href="history.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Recent Tabs</h1>
+      <div class="settings">
+        <label for="history-size">History Size:</label>
+        <select id="history-size">
+          <option value="10">10</option>
+          <option value="20" selected>20</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+        </select>
+      </div>
+    </header>
+    <div id="tabs-list" class="tabs-list">
+      <div class="loading">Loading...</div>
+    </div>
+    <div id="empty-state" class="empty-state" style="display: none;">
+      <p>No recent tabs</p>
+      <p class="hint">Start browsing to build your history</p>
+    </div>
+    <footer>
+      <div class="shortcuts">
+        <span class="shortcut">
+          <kbd>Esc</kbd>
+          <span>Close this page</span>
+        </span>
+        <span class="shortcut">
+          <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd>
+          <span>Previous tab</span>
+        </span>
+      </div>
+    </footer>
+  </div>
+  <script src="history.js"></script>
+</body>
+</html>

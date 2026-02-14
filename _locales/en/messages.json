@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Edge Recent Tab",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Quickly access and switch to your recently used tabs in Edge browser",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Recent Tabs",
+    "description": "The title shown in the popup"
+  },
+  "commandPreviousTab": {
+    "message": "Switch to previous tab in history",
+    "description": "Description for the previous tab command"
+  },
+  "commandOpenPopup": {
+    "message": "Open recent tabs popup (Alt+Q)",
+    "description": "Description for the open popup command"
+  }
+}
